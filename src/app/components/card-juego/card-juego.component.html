@@ -1,0 +1,6 @@
+<div>
+    <h3>{{j.nombre}}</h3>
+    <button [routerLink]="['/detail/',j.id]">Ver Detalles</button>
+    <button [routerLink]="['/update/',j.id]">Actualizar Datos</button>
+    <button (click)="deleteJuego(j.id)">Eliminar</button>
+</div>

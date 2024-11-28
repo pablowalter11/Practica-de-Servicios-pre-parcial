@@ -1,0 +1,33 @@
+<fieldset>
+    <legend>CARGAR JUEGO</legend>
+    <form [formGroup]="form">
+        <label for="">Nombre:</label>
+        <input 
+            type="text"
+            formControlName="nombre"
+        >
+        <div *ngIf="form.controls['nombre'].getError('required') && form.controls['nombre'].touched">
+            <div>Campo Requerido</div>
+        </div>
+
+        <label for="">Empresa:</label>
+        <input 
+            type="text"
+            formControlName="empresa"
+        >
+        <div *ngIf="form.controls['empresa'].getError('required') && form.controls['empresa'].touched">
+            <div>Campo Requerido</div>
+        </div>
+
+        <label for="">Plataforma:</label>
+        <input 
+            type="text"
+            formControlName="plataforma"
+        >
+        <div *ngIf="form.controls['plataforma'].getError('required') && form.controls['plataforma'].touched">
+            <div>Campo Requerido</div>
+        </div>
+
+        <button (click)="addJuego()" routerLink="/list">AGREGAR</button>
+    </form>
+</fieldset>

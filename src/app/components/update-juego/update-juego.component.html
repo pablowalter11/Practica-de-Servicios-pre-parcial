@@ -1,0 +1,15 @@
+<fieldset>
+    <legend></legend>
+    <form [formGroup]="form" (ngSubmit)="updateJuego()">
+        <label for="">Nombre:</label>
+        <input type="text" formControlName="nombre">
+        
+        <label for="">Empresa:</label>
+        <input type="text" formControlName="empresa">
+
+        <label for="">Plataforma:</label>
+        <input type="text" formControlName="plataforma">
+
+        <button>Actualizar</button>
+    </form>
+</fieldset>

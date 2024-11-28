@@ -1,0 +1,11 @@
+<div>
+    <ul class="list">
+        <li *ngFor="let item of listaJuegos">
+            <app-card-juego
+                [j]="item"
+                class="card"
+                >
+            </app-card-juego>
+        </li>
+    </ul>
+</div>

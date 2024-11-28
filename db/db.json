@@ -1,0 +1,58 @@
+{
+  "juegos": [
+    {
+      "id": "0306",
+      "nombre": "Spyro The Dragon Reignited Trylogy",
+      "empresa": "Activision",
+      "plataforma": "PC"
+    },
+    {
+      "nombre": "Spyro 2: Ripto's Rage! Reignited Trylogy",
+      "empresa": "Activision",
+      "plataforma": "PC",
+      "id": "74e3"
+    },
+    {
+      "id": "6fb7",
+      "nombre": "Mortal Kombat Shaolin Monks",
+      "empresa": "Midway",
+      "plataforma": "PS2"
+    },
+    {
+      "id": "ac33",
+      "nombre": "Pokemon RojoFuego/VerdeHoja",
+      "empresa": "GameFreak",
+      "plataforma": "GBA"
+    },
+    {
+      "id": "d360",
+      "nombre": "Pokemon Blanco",
+      "empresa": "GameFreak",
+      "plataforma": "NDS"
+    },
+    {
+      "id": "4b89",
+      "nombre": "Red Dead Redemption",
+      "empresa": "RockstarGames",
+      "plataforma": "PS3"
+    },
+    {
+      "id": "7ae3",
+      "nombre": "Bayonetta",
+      "empresa": "Sega",
+      "plataforma": "PS3"
+    },
+    {
+      "id": "b718",
+      "nombre": "God Of War III",
+      "empresa": "Santa Monica Studio",
+      "plataforma": "PS3"
+    },
+    {
+      "id": "ce78",
+      "nombre": "God Of War Ascention",
+      "empresa": "Santa Monica Studio",
+      "plataforma": "PS3"
+    }
+  ]
+}
